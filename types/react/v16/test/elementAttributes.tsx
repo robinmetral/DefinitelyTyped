@@ -40,6 +40,7 @@ const testCases = [
     <a target="some-frame"></a>,
     <input type="button" />,
     <input type="some-type" />,
+    <video disableRemotePlayback onResize={() => {}} />,
     <picture>
         <source media="test" srcSet="test" width={50} height={50} />
         <img src="test" width={100} height={100} />
